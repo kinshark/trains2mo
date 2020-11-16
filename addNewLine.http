@@ -1,0 +1,16 @@
+POST http://localhost:3000/addNewLine HTTP/1.1
+content-type: application/json
+
+{
+  "lineName": "SUZY",
+  "arrivalTime": [
+    {
+      "hour": "21",
+      "min": "23"
+    },
+    {
+      "hour": "23",
+      "min": "21"
+    }
+  ]
+}
